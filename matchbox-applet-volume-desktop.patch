@@ -1,0 +1,16 @@
+--- mb-applet-volume-0.2/mb-applet-volume.desktop.orig	2005-10-03 00:06:55.000000000 +0200
++++ mb-applet-volume-0.2/mb-applet-volume.desktop	2006-12-27 16:18:18.791009875 +0100
+@@ -1,7 +1,12 @@
+ [Desktop Entry]
++Encoding=UTF-8
+ Name=Volume control
++Name[pl]=Zmiana głośności
+ Comment=Panel based Volume control
++Comment[pl]=Zmiana głośności z panelu
+ Exec=mb-applet-volume
+ Type=PanelApp
++Teminal=false
+ Icon=mbvol-high.png
+-Categories=Panel;Utility;MB
++Categories=Applet;Utility;
++# vi:encoding=utf-8
