@@ -1,5 +1,5 @@
 Summary:	Matchbox applet to control volume
-Summary(pl.UTF-8):   Aplet środowiska Matchbox do sterowania głośnością
+Summary(pl.UTF-8):	Aplet środowiska Matchbox do sterowania głośnością
 Name:		matchbox-applet-volume
 Version:	0.2
 Release:	1
