@@ -1,5 +1,5 @@
 Summary:	Matchbox applet to control volume
-Summary(pl):	Aplet ∂rodowiska Matchbox do sterowania g≥o∂no∂ci±
+Summary(pl.UTF-8):   Aplet ≈õrodowiska Matchbox do sterowania g≈Ço≈õno≈õciƒÖ
 Name:		matchbox-applet-volume
 Version:	0.2
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Matchbox applet to control volume.
 
-%description -l pl
-Aplet ∂rodowiska Matchbox do sterowania g≥o∂no∂ci±.
+%description -l pl.UTF-8
+Aplet ≈õrodowiska Matchbox do sterowania g≈Ço≈õno≈õciƒÖ.
 
 %prep
 %setup -q -n mb-applet-volume-%{version}
