@@ -5,10 +5,10 @@ Version:	0.2
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://projects.o-hand.com/matchbox/sources/mb-applet-volume/%{version}/mb-applet-volume-%{version}.tar.bz2
+Source0:	http://downloads.yoctoproject.org/releases/matchbox/mb-applet-volume/%{version}/mb-applet-volume-%{version}.tar.bz2
 # Source0-md5:	5e814f149cf785bcaa6a0c919e87a9d7
 Patch0:		%{name}-desktop.patch
-URL:		http://projects.o-hand.com/matchbox/
+URL:		https://www.yoctoproject.org/software-item/matchbox/
 BuildRequires:	gtk+2-devel >= 1:2.0
 BuildRequires:	libmatchbox-devel
 BuildRequires:	pkgconfig
@@ -42,4 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS TODO
 %attr(755,root,root) %{_bindir}/mb-applet-volume
 %{_desktopdir}/mb-applet-volume.desktop
-%{_pixmapsdir}/*.png
+%{_pixmapsdir}/mbvol-*.png
